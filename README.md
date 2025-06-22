@@ -61,9 +61,9 @@ For each horse, the following fields are used:
   streamlit run app.py
 
 **NOTE**
-The model file race_model.pkl is not included due to GitHub's file size restrictions. You will need to add the trained model and encoder .pkl files (rm 'going_encoder.pkl', 'horse_country_encoder.pkl', 'horse_type_encoder.pkl', 'race_model.pkl', 'scaler.pkl', 'surface_encoder.pkl', 'venue_encoder.pkl') manually into the project directory.
+The model file race_model.pkl is not included due to GitHub's file size restrictions. You will need to add the trained model and encoder .pkl files ('going_encoder.pkl', 'horse_country_encoder.pkl', 'horse_type_encoder.pkl', 'race_model.pkl', 'scaler.pkl', 'surface_encoder.pkl', 'venue_encoder.pkl') manually into the project directory.
 
 ## 🧠 **Model & Dataset**
-  The model was trained on the HK Racing Dataset sourced from Kaggle (by gdaley), using features from both races.csv and runs.csv.
-  ML Algorithm used: RandomForestRegressor + optional VotingRegressor
-  Target: Actual Finish Time in seconds
+ - The model was trained on the HK Racing Dataset sourced from Kaggle (by gdaley), using features from both races.csv and runs.csv.
+ - ML Algorithm used: RandomForestRegressor + optional VotingRegressor
+ - Target: Actual Finish Time in seconds
